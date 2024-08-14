@@ -5,9 +5,9 @@
 ## Features:
 
 - **Performance Optimized:** Achieves a perfect score of 100/100 on Google's PageSpeed Insights.
-* **Responsive Design: Fully** responsive layout that adapts seamlessly to different screen sizes.
+* **Responsive Design:** Fully responsive layout that adapts seamlessly to different screen sizes.
 + **Clean and Lightweight:** Minimalist design with no unnecessary bloat, ensuring fast load times.
-- **High Resolution Support:** Utilizes srcset for optimal image quality on high-resolution displays.
+- **High Resolution Support:** Utilizes 'srcset' for optimal image quality on high-resolution displays.
 * **Easy to Customize:** Simple and well-structured HTML and CSS code, making it easy to adapt to your needs.
 
 ## View the Template Online:
