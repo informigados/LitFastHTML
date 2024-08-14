@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="LitFastHTML - Light and Fast HTML Template for modern web design.">
+    <title>LitFastHTML - Light and Fast HTML Template</title>
+    <!-- Favicon -->
+    <link rel="icon" href="path/to/your/favicon.ico" type="image/x-icon">
+    <script type="text/javascript" src="https://me.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=2JSp_nCwYaKt8fonGrdU7YO3S-rWfzxtS-BeUTvgb3U2AlauHBP9_EDG4YE8NEKfdWTQ3HNbs6ZxKlQErIJK92a9U0mF1byrjwke1z1BlU820S8sER8MsWOeS4cvyc2tFvlQ0U88iribt8-36oIQH3-eCPk1Ogt-wfQYy3P-iCUq02QGbWnYXxgjIKCCyruuKaicU_1r8P0cbjI8a55Xubrn__dByJM2ao-P6kOkkdM" charset="UTF-8"></script><style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fff;
+        }
+
+        .header-container {
+            text-align: center;
+            padding: 20px;
+            background-color: #fff;
+        }
+
+        .logo {
+            margin: 0;
+            padding: 0;
+        }
+
+        .logo h1 {
+            margin: 0;
+            font-size: 2em;
+            color: #0056b3;
+        }
+
+        .logo p {
+            margin: 5px 0 0;
+            font-size: 1.2em;
+            color: #333;
+        }
+
+        nav {
+            background: #222;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 15px;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            background-color: #444;
+            border-radius: 5px;
+        }
+
+        @media (max-width: 768px) {
+            nav a {
+                margin: 0 5px;
+                padding: 10px 5px;
+                font-size: 0.9em;
+            }
+        }
+
+        section {
+            padding: 40px 20px;
+        }
+
+        section h2 {
+            font-size: 2em;
+            color: #0056b3;
+            margin-bottom: 20px;
+            text-align: center;
+            width: 100%;
+        }
+
+        .about {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: left;
+            max-width: 1200px;
+            margin: 0 auto;
+            flex-direction: column;
+        }
+
+        .about img {
+            border-radius: 50%;
+            width: 300px;
+            height: 300px;
+            margin-bottom: 20px;
+        }
+
+        .about p {
+            max-width: 600px;
+        }
+
+        @media (min-width: 768px) {
+            .about {
+                flex-direction: row;
+            }
+
+            .about img {
+                margin-right: 20px;
+                margin-bottom: 0;
+            }
+        }
+
+        .services {
+            background-color: #f4f4f4;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .services h2 {
+            margin-top: 0;
+        }
+
+        .services-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .services-container div {
+            flex: 1;
+            padding: 20px;
+            max-width: 300px;
+            min-width: 200px;
+            margin: 10px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .services-container div h3 {
+            margin-bottom: 10px;
+            color: #0056b3;
+        }
+
+        .contact form {
+            display: flex;
+            flex-direction: column;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .contact form input, 
+        .contact form textarea {
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact form button {
+            padding: 10px;
+            background: #0056b3;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        footer {
+            background: #222;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer a {
+            color: #00aaff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header-container">
+        <div class="logo">
+            <h1>LitFastHTML</h1>
+            <p>Light and Fast HTML Template</p>
+        </div>
+    </div>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+    <h2>About</h2>
+    <div class="about">
+        <img src="https://via.placeholder.com/600x600" srcset="https://via.placeholder.com/600x600 1x, https://via.placeholder.com/1200x1200 2x" alt="LitFastHTML Photo" width="300" height="300">
+        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+    </div>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Services</h2>
+        <div class="services-container">
+            <div>
+                <h3>Service One</h3>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+            </div>
+            <div>
+                <h3>Service Two</h3>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+            </div>
+            <div>
+                <h3>Service Three</h3>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <form action="https://example.com/form-handler" method="POST">
+            <input type="text" name="name" placeholder="Your name" required>
+            <input type="email" name="email" placeholder="Your email" required>
+            <input type="text" name="subject" placeholder="Subject" required>
+            <textarea name="message" rows="5" placeholder="Your message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>2024 &copy; LitFastHTML. By INformigados.</p>
+        <p>All Rights Reserved.</p>
+        <p>
+            <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a> |
+            <a href="https://github.com/" target="_blank">GitHub</a> |
+            <a href="https://twitter.com/" target="_blank">Twitter</a>
+        </p>
+    </footer>
+</body>
+</html>
