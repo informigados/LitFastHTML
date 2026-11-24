@@ -14,4 +14,4 @@
 
 To see LitFastHTML in action, you can visit the live demo at:
 
-https://informigados.com.br/templates/html/litfasthtml/
+https://informigados.github.io/LitFastHTML/
