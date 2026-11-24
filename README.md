@@ -1,17 +1,28 @@
-# LitFastHTML - Light and Fast HTML Template
+# ⚡ LitFastHTML
 
-**LitFastHTML** is a minimalist and highly optimized HTML template designed for modern web design projects. This template is perfect for developers who value performance and simplicity, providing a strong foundation for building fast and responsive websites.
+A lightweight, responsive HTML template for simple websites. The layout and styles are bundled in [`index.html`](index.html).
 
-## Features:
+[Live demo](https://informigados.github.io/LitFastHTML/)
 
-- **Performance Optimized:** Achieves a perfect score of 100/100 on Google's PageSpeed Insights.
-* **Responsive Design:** Fully responsive layout that adapts seamlessly to different screen sizes.
-+ **Clean and Lightweight:** Minimalist design with no unnecessary bloat, ensuring fast load times.
-- **High Resolution Support:** Utilizes 'srcset' for optimal image quality on high-resolution displays.
-* **Easy to Customize:** Simple and well-structured HTML and CSS code, making it easy to adapt to your needs.
+## ✨ Features
 
-## View the Template Online:
+- Responsive layout with About, Services, and Contact sections.
+- Inline CSS for straightforward customization and static hosting.
+- Responsive images using `srcset`, with standard and high-density sources.
+- Performance-focused design. The original demo reported a 100/100 PageSpeed Insights score. Results vary with hosting, assets, and customizations.
 
-To see LitFastHTML in action, you can visit the live demo at:
+## 🚀 Quick start
 
-https://informigados.github.io/LitFastHTML/
+1. Open [`index.html`](index.html) in a browser.
+2. Edit the content, navigation, and inline styles to match your site.
+3. Replace the sample image URLs and favicon path with your own assets.
+4. Publish the file on any static host.
+
+## 👥 Authors
+
+- [Alex Brito](https://github.com/alexbritodev)
+- [INformigados](https://github.com/informigados)
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
