@@ -2,6 +2,11 @@
 
 A lightweight, responsive HTML template for simple websites. The layout and styles are bundled in [`index.html`](index.html).
 
+[![HTML5](docs/assets/html5.svg)](index.html)
+[![CSS](docs/assets/css.svg)](index.html)
+[![License: MIT](docs/assets/license.svg)](LICENSE)
+[![DeepWiki](docs/assets/deepwiki.svg)](https://deepwiki.com/informigados/LitFastHTML)
+
 [Live demo](https://informigados.github.io/LitFastHTML/)
 
 ## ✨ Features
